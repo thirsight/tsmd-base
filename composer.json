@@ -7,6 +7,13 @@
     "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "~2.0.14"
-    }
+        "yiisoft/yii2": "~2.0.14",
+        "thirsight/tsmd-modulemgr": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:thirsight/tsmd-modulemgr.git"
+        }
+    ]
 }
