@@ -1,0 +1,12 @@
+{
+    "name": "thirsight/tsmd-base",
+    "description": "TSMD base module.",
+    "keywords": ["yii2", "tsmd", "base"],
+    "homepage": "https://tsmd.thirsight.com/",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.14"
+    }
+}
