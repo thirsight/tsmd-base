@@ -29,7 +29,7 @@ class CaptchaController extends \tsmd\base\controllers\RestTddController
 
         Yii::$app->response->format = 'html';
 
-        $siteKey = '6LecpaMUAAAAAAL6rr-At-mKIGCpV3pn_oUZ03B5';
+        $siteKey = Yii::$app->get('recaptcha')->siteKey;
         $html = <<<HTML
 <html>
   <head>
@@ -46,7 +46,7 @@ class CaptchaController extends \tsmd\base\controllers\RestTddController
 </html>
 HTML;
 
-        $siteKey = '6LcgpqMUAAAAAPlMI69DQtsZ5hGDpXEDP5SKcyqL';
+        $siteKey = Yii::$app->get('recaptcha')->siteKey;
         $html = <<<HTML
 <html>
   <head>
