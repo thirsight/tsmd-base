@@ -1,0 +1,5 @@
+actor: ApiTester
+path: .
+modules:
+    enabled:
+        - \Helper\Api

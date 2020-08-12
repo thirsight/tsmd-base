@@ -1,6 +1,6 @@
 {
-    "name": "thirsight/tsmd-base",
-    "description": "TSMD base module.",
+    "name": "thirsight/yii2-tsmd-base",
+    "description": "TSMD base module for Yii2.",
     "keywords": ["yii2", "tsmd", "base"],
     "homepage": "https://tsmd.thirsight.com/",
     "type": "library",
@@ -13,7 +13,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:thirsight/tsmd-modulemgr.git"
+            "url": "git@github.com:thirsight/yii2-tsmd-base.git"
         }
     ]
 }
